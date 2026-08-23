@@ -60,10 +60,10 @@ sudo apt install --no-install-recommends -y \
     bluez
 
 # --- KDE Tools ---
-sudo apt install --no-install-recommends -y \
-    ark \
-    gwenview \
-    kdegraphics-thumbnailers
+# sudo apt install --no-install-recommends -y \
+#     ark \
+#     gwenview \
+#     kdegraphics-thumbnailers
 
 # --- Portal ---
 sudo apt install --no-install-recommends -y \
