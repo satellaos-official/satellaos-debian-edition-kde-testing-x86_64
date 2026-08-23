@@ -16,3 +16,6 @@ sudo tee /etc/sddm.conf.d/kde_settings.conf > /dev/null << 'EOF'
 [Theme]
 CursorTheme=volantes_cursors
 EOF
+
+# --- Default Wallpaper ---
+sudo cp -r $SCRIPT_DIR/usr/share/plasma/wallpapers/org.kde.image/contents/config/ /usr/share/plasma/wallpapers/org.kde.image/contents/config/
