@@ -17,3 +17,6 @@ bash $VERSION/tree-installer-system/fastfetch/run.sh
 
 # --- Cleaning ---
 rm -rf $HOME/.satellaos-source/installer
+
+# --- Reboot ---
+sudo reboot
