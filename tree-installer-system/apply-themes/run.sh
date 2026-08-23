@@ -9,4 +9,10 @@ sudo cp -r $SCRIPT_DIR/.config $HOME/
 sudo cp -r $SCRIPT_DIR/.local $HOME/
 
 # --- SDDM Curcor ---
-echo -e "[Theme]\nCursorTheme=volantes_cursors" | sudo tee /etc/sddm.conf.d/kde_settings.conf > /dev/null
+
+mkdir -p /etc/sddm.conf.d/
+
+cat > /etc/sddm.conf.d/kde_settings.conf << 'EOF'
+[Theme]
+CursorTheme=volantes_cursors
+EOF
