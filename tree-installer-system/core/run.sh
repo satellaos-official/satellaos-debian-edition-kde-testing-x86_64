@@ -65,6 +65,11 @@ sudo apt install --no-install-recommends -y \
     gwenview \
     kdegraphics-thumbnailers
 
+# --- Portal ---
+sudo apt install --no-install-recommends -y \
+    xdg-desktop-portal-kde \
+    xdg-desktop-portal
+
 # --- Remove ---
 sudo apt purge -y \
     kdeconnect \
